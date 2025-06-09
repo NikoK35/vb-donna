@@ -1,0 +1,37 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Vertaalbureau Donna</h1>
+			<p>
+				Welkom op de website van Vertaalbureau Donna, gespecialiseerd in het vertalen van Bulgaars naar het Nederlands en van het Nederlands naar het Bulgaars, zowel voor bedrijven als particulieren.
+			</p>
+			<p>
+				Tolk en vertaler zijn twee verschillende beroepen. Een vertaalster schrijft en een tolk spreekt. Donna Vassileva van vertaalbureau Donna oefent beide beroepen uit.
+
+			</p>
+			<p>Als beëdigd professioneel tolk en vertaalster biedt zij hoogwaardige zakelijke diensten aan. Zij draagt zorg dat mensen die elkaars taal niet spreken of verstaan, toch met elkaar kunnen communiceren.
+</p>
+			<p>
+				Vertalen of tolken is bovendien een zaak van vertrouwen. U kunt als opdrachtgever rekenen op een goede en getrouwe weergave van uw tekst in het Bulgaars of Nederlands en u kunt ervan op aan dat vertrouwelijke gegevens ook vertrouwelijk worden behandeld. Wij hebben kwaliteit en integriteit dan ook hoog in het vaandel staan.
+
+			</p>
+			<p>
+				Voor meer informatie kunt u gebruik maken van het contactformulier, een email zenden of telefonisch contact met ons opnemen.
+
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
